@@ -14,7 +14,7 @@ class MqttService with ChangeNotifier {
   MqttService({required this.navigatorKey});
   final String server = "io.adafruit.com";
   final String username = "Duyen";
-  final String aioKey = "aio_fATE02ASxyRbFK54LPEWBu9SWqYP";
+  final String aioKey = "";
   final String topicTag = "Duyen/feeds/tagposition";
   final String topicAnchor = "Duyen/feeds/anchorposition";
 
